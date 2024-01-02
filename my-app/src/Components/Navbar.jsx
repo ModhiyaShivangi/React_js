@@ -49,12 +49,9 @@ export default function Navbar() {
             
 
             <MDBNavbarItem>
-            
               <MDBNavbarLink >
               <Link to={"/about"}>About</Link>
               </MDBNavbarLink>
-                
-        
             </MDBNavbarItem>
 
             <MDBNavbarItem>
@@ -62,6 +59,13 @@ export default function Navbar() {
               <Link to={"/Product"}>Product</Link>
               </MDBNavbarLink>
             </MDBNavbarItem>
+            
+            <MDBNavbarItem>
+              <MDBNavbarLink >
+              <Link to={"/example"}>Example</Link>
+              </MDBNavbarLink>
+            </MDBNavbarItem>
+
           </MDBNavbarNav>
 
           <form className='d-flex input-group w-auto'>
@@ -71,7 +75,7 @@ export default function Navbar() {
         </MDBCollapse>
       </MDBContainer>
     </MDBNavbar>
-    <Outlet/>
+    {/* <Outlet/> */}
     </>
   );
 }
