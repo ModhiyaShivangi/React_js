@@ -1,12 +1,13 @@
 import React from 'react'
 // import Navbar from './Navbar'
-import Card from '../Components/Card'
+import Card from './Card'
+import LightDarkmode from './LightDarkmode'
 
 function About() {
   return (
     <>
     {/* <Navbar/> */}
-       <h1>About Page</h1>
+    <LightDarkmode/>
     <Card/>
     </>
   )
