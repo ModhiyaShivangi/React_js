@@ -34,10 +34,10 @@ const FunctionalCompoRoute = () => {
                     path: "jsxinfunccomp",
                     element: <JSXFunctionalComponentInReact />,
                 }, {
-                    path: "controlledcomponent",
+                    path: "ControlledComponentInReact",
                     element: <ControlledComponentInReact />,
                 }, {
-                    path: "controlledcomponentmultipledata",
+                    path: "MultipleDataComponentInReact",
                     element: <MultipleDataComponentInReact />,
                 }, {
                     path: "restandspread",

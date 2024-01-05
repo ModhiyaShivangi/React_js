@@ -12,7 +12,7 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="propsinfunccomp"> Props </Link></li>
                 <li><Link to="jsxinfunccomp"> JSX </Link></li>
                 <li><Link to="ControlledComponentInReact"> Controlled Component </Link></li>
-                <li><Link to="controlledcomponentmultipledata"> Multiple Input in single State Component </Link></li>
+                <li><Link to="MultipleDataComponentInReact"> Multiple Input in single State Component </Link></li>
                 <li><Link to="restandspread"> Rest Vs Spread </Link></li>
                 <li><Link to="hooksinfunctionalcompo"> Hooks </Link></li>
                 <li><Link to="UseStateinfuncomponent"> UseState in fun component </Link></li>
