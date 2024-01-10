@@ -12,6 +12,8 @@ import UseStateinfuncomponent from './10UseStateinfuncomponent.jsx';
 import UseEffectHooksInFunctionalCompo from './11UseEffectHooksInFunctionalCompo.jsx';
 import UseLayoutEffectHooksInFunctionalCompo from './12UseLayoutEffectHooksInFunctionalCompo.jsx';
 import UseRefEffectHooksInFunctionalCompo from './13UseRefEffectHooksInFunctionalCompo.jsx';
+import UseCallbackHooksInFunctionalCompo from './14UseCallbackHooksInFunctionalCompo.jsx';
+import UseMemoHooksInFunctionalCompo from './15UseMemoHooksInFunctionalCompo.jsx';
 
 
 const FunctionalCompoRoute = () => {
@@ -55,8 +57,14 @@ const FunctionalCompoRoute = () => {
                     path: "uselayouteffectinfunctionalcompo",
                     element: <UseLayoutEffectHooksInFunctionalCompo />,
                 }, {
-                    path: "usereffectinfunctionalcompo",
+                    path: "UseRefEffectHooksInFunctionalCompo",
                     element: <UseRefEffectHooksInFunctionalCompo />,
+                }, {
+                    path: "UseCallbackHooksInFunctionalCompo",
+                    element: <UseCallbackHooksInFunctionalCompo />,
+                },{
+                    path: "UseMemoHooksInFunctionalCompo",
+                    element: <UseMemoHooksInFunctionalCompo />,
                 },
             ]
         }])

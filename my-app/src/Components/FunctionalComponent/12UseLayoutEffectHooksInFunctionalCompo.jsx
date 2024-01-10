@@ -29,11 +29,8 @@ const UseEffectHooksInFunctionalCompo = () => {
         <>
         <div className="container">
             <h2>What is useLayoutEffect Hook ?</h2>
-            <p>The useEffect() Hook is a built-in Hook in React that allows functional
-            components to perform side effects. It replaces the lifecycle methods like
-            componentDidMount(), componentDidUpdate(), and
-            componentWillUnmount(). The useEffect() Hook runs after every render by
-            default.</p>
+            <p>The React JS useLayoutEffect works similarly to useEffect but rather works asynchronously like the useEffect hook, it fires synchronously after all DOM loading is done loading. This is useful for synchronously re-rendering the DOM and also to read the layout from the DOM. But to 
+                prevent blocking the page loading, we should always use the useEffect hook.</p>
             useLayoutEffect Hooks In Functional Compo
             <button onClick={() => { setCnt(counter + 1) }}>Increment {counter}</button>
             {/* <button onClick={() => { anything(secondState + 1) }}>Increment Other State Data {secondState}</button> */}

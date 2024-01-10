@@ -18,7 +18,9 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="UseStateinfuncomponent"> UseState in fun component </Link></li>
                 <li><Link to="useeffectinfunctionalcompo"> useEffect </Link></li>
                 <li><Link to="uselayouteffectinfunctionalcompo"> useLayoutEffect </Link></li>
-                <li><Link to="usereffectinfunctionalcompo"> useRef </Link></li>
+                <li><Link to="UseRefEffectHooksInFunctionalCompo"> use Ref Effect hooks in function component </Link></li>
+                <li><Link to="UseCallbackHooksInFunctionalCompo"> Use Callback Hooks In Functional Compo </Link></li>
+                <li><Link to="UseMemoHooksInFunctionalCompo"> Use Memo Hooks In Functional Compo </Link></li>
             </ol>
             </div>
         </div>

@@ -5,13 +5,15 @@ const HooksInFunctionalCompo = () => {
         <>
          <div className="container">
         <h2>What are React Hooks?</h2>
-        <p><b>React Hooks are functions introduced in React 16.8 that allow you to use
-        state and other React features in functional components. Hooks provide a
-        way to use local component state, lifecycle methods, and other React
+        <p>-class ki functionality ko use kar sakte hai without writing a class.
+            it is called hooks.</p>
+            <p>Hooks provides one variable and one functionality</p>
+        <p><b>-React Hooks are functions introduced in React 16.8 that allow you to use
+        state and other React features in functional components.<br/>
+        -Hooks provide a way to use local component state, lifecycle methods, and other React
         features without writing a class.</b></p>
-            <p>Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.</p>
-            <p> This page describes the APIs for the built-in Hooks in React.</p>
-            <p>If you’re new to Hooks, you might want to check out the overview first. You may also find useful information in the frequently asked questions section.</p>
+        <p>Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.</p>
+
             <ul>
                 <li>
                     <p><a href="#basic-hooks">Basic Hooks</a></p>
