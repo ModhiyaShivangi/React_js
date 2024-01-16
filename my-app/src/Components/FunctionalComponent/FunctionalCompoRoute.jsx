@@ -14,6 +14,8 @@ import UseLayoutEffectHooksInFunctionalCompo from './12UseLayoutEffectHooksInFun
 import UseRefEffectHooksInFunctionalCompo from './13UseRefEffectHooksInFunctionalCompo.jsx';
 import UseCallbackHooksInFunctionalCompo from './14UseCallbackHooksInFunctionalCompo.jsx';
 import UseMemoHooksInFunctionalCompo from './15UseMemoHooksInFunctionalCompo.jsx';
+import StateLiftingInFunctionalCompo from './16StateLiftingInFunctionalCompo.jsx';
+import ChildComponent from './17ChildComponent.jsx';
 
 
 const FunctionalCompoRoute = () => {
@@ -65,6 +67,12 @@ const FunctionalCompoRoute = () => {
                 },{
                     path: "UseMemoHooksInFunctionalCompo",
                     element: <UseMemoHooksInFunctionalCompo />,
+                },{
+                    path: "StateLiftingInFunctionalCompo",
+                    element: <StateLiftingInFunctionalCompo />,
+                },{
+                    path: "ChildComponent",
+                    element: <ChildComponent />,
                 },
             ]
         }])
