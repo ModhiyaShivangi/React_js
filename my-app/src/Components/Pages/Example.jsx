@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { Outlet } from 'react-router-dom'
-import LightDarkmode from './LightDarkmode'
+import LightDarkmode from '../Common/LightDarkmode'
 
 
 

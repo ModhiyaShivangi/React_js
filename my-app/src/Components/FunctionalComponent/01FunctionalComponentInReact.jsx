@@ -5,10 +5,19 @@ const FunctionalComponentInReact = () => {
         <>
           <div className="container">
           <h2>What is a Functional Component in React?</h2>
-          <p><b>A functional component, also known as a stateless component, is a
-          JavaScript function that returns JSX to define the structure and
-          appearance of a React component. Functional components are primarily
-          used for presenting UI and don't have their own internal state.</b></p>
+          <ol>
+          <li><b>A functional component is just a plain JavaScript 
+            function that accepts props as an argument and returns a React element(JSX).</b></li>
+          <li><b> no render method used in functional components.</b></li>
+          <li><b>Functional components run from top to bottom and once the function is returned 
+            it can't be kept alive.</b></li>
+          <li><b>Also known as Stateless components as they simply accept data and display them in some form, 
+            they are mainly responsible for rendering UI.</b></li>
+          <li><b>Hooks can be easily used in functional components to make them Stateful.</b></li>
+          <li><b>Constructors are not used.</b></li>
+          
+          </ol>
+          
             <div className="alert alert-info">
             function func_name ( ) &#123; <br />
                 &nbsp;&nbsp;&nbsp;&nbsp; code.. <br />

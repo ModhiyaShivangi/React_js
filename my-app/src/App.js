@@ -19,6 +19,8 @@ function App() {
         <Route path='Home' element={<Home/>} />
         <Route path='About' element={<About/>} />
         <Route path='Product' element={<Product/>} />
+        <Route path='Example' element={<Example/>} />
+        <Route path='CSSmodule' element={<CSSmodule/>} />
       </Route>
     </Routes>
     </BrowserRouter>

@@ -23,6 +23,7 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="UseMemoHooksInFunctionalCompo"> Use Memo Hooks In Functional Compo </Link></li>
                 <li><Link to="StateLiftingInFunctionalCompo">State Lifting In Functional Compo</Link></li>
                 <li><Link to="ChildComponent">Child Component</Link></li>
+                <li><Link to="UseReducerHook">Use Reducer Hook</Link></li>
             </ol>
             </div>
         </div>

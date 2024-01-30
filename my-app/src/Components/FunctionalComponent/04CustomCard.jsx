@@ -1,12 +1,7 @@
 import React from 'react';
-import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
-    MDBCardImage,
-    MDBBtn
-} from 'mdb-react-ui-kit';
+import {MDBCard,MDBCardBody,MDBCardTitle,MDBCardText,MDBCardImage,MDBBtn} from 'mdb-react-ui-kit';
+
+
 
 const CustomCard = ({ title, price, description, image, rating }) => {
     return (

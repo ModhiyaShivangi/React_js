@@ -10,10 +10,11 @@ const StateFunctionalComponentInReact = () => {
     return (
         <>
             <div className="container">
-                <h2>What is <b>State</b> in Function Component?</h2>
+                <h2>What is <b>State</b> in Functional Component?</h2>
                 <p><b>State is a built-in object in React that holds component-specific data. It
                 represents the mutable values that can change over time and trigger a re-render of the component.</b></p>
-           
+           <p><b>Hook that allows the component to have state. It returns an array with two elements: the current 
+            state value and a function to update it.</b></p>
             <div className="container">
             {data}
             <br />

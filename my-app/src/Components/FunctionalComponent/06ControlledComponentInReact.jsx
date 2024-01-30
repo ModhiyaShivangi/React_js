@@ -20,7 +20,7 @@ const ControlledComponentInReact = () => {
 
         <div className="container">
         <h2>Q. -What are Uncontrolled Components ?</h2>
-        In React, an <input type="text" /> is always an uncontrolled component because its value can only be set by a user, and not programmatically.
+        In React, an 'input type="text" ' is always an uncontrolled component because its value can only be set by a user, and not programmatically.
         <br />
         <br />
         <h2>Q.- What are Controlled components ?</h2>

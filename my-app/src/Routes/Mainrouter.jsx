@@ -1,10 +1,11 @@
 import React from 'react'
 import {createBrowserRouter } from 'react-router-dom'
 import Home from '../Components/Pages/Home'
-import Navbar from '../Components/Pages/Navbar'
-import About from '../Components/Pages/About'
-import Product from '../Components/Pages/Product';
+import Navbar from '../Components/Common/Navbar'
+import About from '../Components/Pages/About' 
+import Product from '../Components/Pages/Product'
 import Example from '../Components/Pages/Example'
+import CSSIssues from '../Components/Pages/CSSissues';
 import FunctionalCompoRoute from '../Components/FunctionalComponent/FunctionalCompoRoute'
 import { Suspense } from 'react';
 // import Classcomporoute from './Classcomponent/Classcomporoute';
@@ -51,7 +52,10 @@ const Mainrouter = createBrowserRouter ([
                 element : <><Suspense fallback={<h1>Loading..</h1>}><FunctionalCompoRoute/></Suspense></>
             }
         ]
-    }
+    },{
+        path : "/CSSIssues",
+        element : <><Navbar/><CSSIssues/></>
+    }, 
 ]);
 
 export default Mainrouter

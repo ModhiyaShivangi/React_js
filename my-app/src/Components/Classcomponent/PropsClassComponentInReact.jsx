@@ -19,7 +19,7 @@ class PropsClassComponentInReact extends Component {
 
     render() {
         const { productData } = this.state;
-        var name = { firstname: "janvi" }
+        var name = { firstname: "shivee" }
         console.log(name.firstname)
         console.log("PropsClassComponentInReact ~ render ~ name:", name)
         return (

@@ -1,6 +1,6 @@
 import React from 'react'
 // import Navbar from './Navbar'
-import LightDarkmode from './LightDarkmode'
+import LightDarkmode from '../Common/LightDarkmode'
 
 
 function Product() {

@@ -16,6 +16,7 @@ import UseCallbackHooksInFunctionalCompo from './14UseCallbackHooksInFunctionalC
 import UseMemoHooksInFunctionalCompo from './15UseMemoHooksInFunctionalCompo.jsx';
 import StateLiftingInFunctionalCompo from './16StateLiftingInFunctionalCompo.jsx';
 import ChildComponent from './17ChildComponent.jsx';
+import UseReducerHook from './18UseReducerHook.jsx';
 
 
 const FunctionalCompoRoute = () => {
@@ -73,6 +74,9 @@ const FunctionalCompoRoute = () => {
                 },{
                     path: "ChildComponent",
                     element: <ChildComponent />,
+                },{
+                    path: "UseReducerHook",
+                    element: <UseReducerHook />,
                 },
             ]
         }])

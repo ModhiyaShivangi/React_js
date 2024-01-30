@@ -5,7 +5,7 @@ import Whatiscompo from './Whatiscompo'
 import Whatisclasscompo from './Whatisclasscompo'
 import Stateclasscompo from './Stateclasscompo'
 import PropsClassComponentInReact from './PropsClassComponentInReact'
-// import Customcard from './Customcard'
+import PropsClassCompo from './PropsclassCompo'
 import ConditionalRenderingClassComponentInReact from './ConditionalRenderingClassComponentInReact'
 import Lifecycleclasscompo from './Lifecycleclasscompo'
 
@@ -20,6 +20,7 @@ import Lifecycleclasscompo from './Lifecycleclasscompo'
               <Route path = "Whatisclasscompo" element = {<Whatisclasscompo/>}/>
               <Route path = "Stateclasscompo" element = {<Stateclasscompo/>}/>
               <Route path = "PropsClassComponentInReact" element = {<PropsClassComponentInReact/>}/>
+              <Route path = "PropsClassCompo" element = {<PropsClassCompo/>}/>
               <Route path = "ConditionalRenderingClassComponentInReact" element = {<ConditionalRenderingClassComponentInReact/>}/>
               <Route path = "Lifecycleclasscompo" element = {<Lifecycleclasscompo/>}/>
 

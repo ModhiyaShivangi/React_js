@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 
 const  UseStateinfuncomponent = () => {
-    const [count, setcount] = useState(15)
+    const [count, setcount] = useState(1)
     // update =()=>{
     //     console.log("update");
     // }
