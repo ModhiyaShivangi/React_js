@@ -5,10 +5,13 @@ const UseEffectHooksInFunctionalCompo = () => {
     const [counter, setCnt] = useState(0)
     const [secondState, anything] = useState(0)
     const [refreshStatus, setRefreshStatus] = useState(true)
+
+
     useEffect(() => {
         console.log("called useEffect");
         getData()
     })
+    
     const getData = async () => {
 
         await  fetch('https://fakestoreapi.com/products').then((res) => res.json()).then((result) => {

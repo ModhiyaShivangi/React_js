@@ -14,9 +14,11 @@ import UseLayoutEffectHooksInFunctionalCompo from './12UseLayoutEffectHooksInFun
 import UseRefEffectHooksInFunctionalCompo from './13UseRefEffectHooksInFunctionalCompo.jsx';
 import UseCallbackHooksInFunctionalCompo from './14UseCallbackHooksInFunctionalCompo.jsx';
 import UseMemoHooksInFunctionalCompo from './15UseMemoHooksInFunctionalCompo.jsx';
-import StateLiftingInFunctionalCompo from './16StateLiftingInFunctionalCompo.jsx';
-import ChildComponent from './17ChildComponent.jsx';
+import StateLiftingUp from './16StateLiftingUp.jsx';
+// import ChildComponent from './17ChildComponent.jsx';
 import UseReducerHook from './18UseReducerHook.jsx';
+import UseContextHook from './19UseContextHook.jsx';
+import ContextAPI from './20ContextAPI.jsx';
 
 
 const FunctionalCompoRoute = () => {
@@ -69,15 +71,18 @@ const FunctionalCompoRoute = () => {
                     path: "UseMemoHooksInFunctionalCompo",
                     element: <UseMemoHooksInFunctionalCompo />,
                 },{
-                    path: "StateLiftingInFunctionalCompo",
-                    element: <StateLiftingInFunctionalCompo />,
-                },{
-                    path: "ChildComponent",
-                    element: <ChildComponent />,
+                    path: "StateLiftingUp",
+                    element: <StateLiftingUp />,
                 },{
                     path: "UseReducerHook",
                     element: <UseReducerHook />,
-                },
+                },{
+                    path: "UseContextHook",
+                    element: <UseContextHook />,
+                },{
+                    path: "ContextAPI",
+                    element: <ContextAPI />,
+                }
             ]
         }])
         return routes;
