@@ -16,8 +16,7 @@ const Mainrouter = createBrowserRouter ([
     {
         path : "/",
         element : <><Navbar/></>
-    },
-    {
+    },{
         path: "/Home",
         element: <><Navbar/><Home/></>
     }, {
@@ -28,12 +27,7 @@ const Mainrouter = createBrowserRouter ([
     }, {
         path : "/Product",
         element : <><Navbar/><Product/></>
-    }, 
-    // {
-    //     path : "/*",
-    //     element : <>test</>
-    // }, 
-    {
+    },{
         path : "/example",
         element : <><Navbar/><Example/></>,
         children : [

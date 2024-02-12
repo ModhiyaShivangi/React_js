@@ -21,10 +21,10 @@ export default function App() {
 
   const [openBasic, setOpenBasic] = useState(false);
 
-  const StyledObject = {width:"80px"}
+  const StyledObject = {width:"180px"}
 
   return (
-    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBNavbar  expand='xl' bgColor='light'>
       <MDBContainer fluid>
         <MDBNavbarBrand href='#'>
 
@@ -39,10 +39,10 @@ export default function App() {
           onClick={() => setOpenBasic(!openBasic)}
         >
           <MDBIcon icon='bars' fas />
-        </MDBNavbarToggler>
+        </MDBNavbarToggler >
 
-        <MDBCollapse navbar open={openBasic}>
-          <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+        <MDBCollapse  navbar open={openBasic}>
+          <MDBNavbarNav className='mr-auto mb-2 mb-lg-0 '>
             <MDBNavbarItem>
         
               <Link className='nav-link' to="/">Home</Link>
@@ -58,6 +58,9 @@ export default function App() {
             </MDBNavbarItem>
             <MDBNavbarItem>
               <Link className='nav-link' to="/login">Login</Link>              
+            </MDBNavbarItem>
+            <MDBNavbarItem>
+              <Link className='nav-link' to="/Crud">Crud Operation</Link>              
             </MDBNavbarItem>
             
           
