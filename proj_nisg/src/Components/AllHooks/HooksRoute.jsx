@@ -10,6 +10,7 @@ import UseCallbacktwo from './Use callback/UseCallbacktwo'
 import UseCallbackthree from './Use callback/UseCallbackthree'
 import UseMemo from './UseMemo'
 import ForwardRef from './Forward Ref/ForwardRef'
+import Palindrom from './Palindrom/Palindrom'
 
 
  class HooksRoute extends Component {
@@ -28,6 +29,7 @@ import ForwardRef from './Forward Ref/ForwardRef'
               <Route path ="UseCallbacktwo" element = {<UseCallbacktwo/>}/>
               <Route path ="UseCallbackthree" element = {<UseCallbackthree/>}/>
               <Route path ="UseMemo" element = {<UseMemo/>}/>
+              <Route path ="Palindrom" element = {<Palindrom/>}/>
               </Route>
         </Routes>
        <Outlet/>

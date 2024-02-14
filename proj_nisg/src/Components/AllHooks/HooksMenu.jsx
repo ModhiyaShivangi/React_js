@@ -16,6 +16,7 @@ class HooksMenu extends Component {
             <li><Link to="UseCallbacktwo">Use Callback two</Link></li>
             <li><Link to="UseCallbackthree">Use Callback three</Link></li>
             <li><Link to="UseMemo">UseMemo</Link></li>
+            <li><Link to="Palindrom">Palindrom</Link></li>
         </ol>
         <Outlet/>
       </>
